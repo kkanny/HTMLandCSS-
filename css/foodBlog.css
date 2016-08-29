@@ -1,0 +1,92 @@
+body {
+	/*background-size: cover;*/
+	/*background-image: url('../img/sandwich2/');*/
+	/*background-repeat: no-repeat;*/
+	/*text-align: center;*/
+	max-width: 600px;
+	font-family: helvetica;
+	background: #232323;
+	margin: 0 auto;
+}
+
+article{
+
+	height:200px;
+	border-radius: 15px;
+	background-size: cover;
+	background-position: center center;
+	margin-top:40px;
+	position: relative;
+
+}
+article.first{
+
+	background-image: url('../img/cookies2/');
+}
+article.second{
+	background-image: url('../img/cupcake/');
+}
+article.thrid{
+	background-image: url('../img/sandwich2/');
+}
+h1{
+	color: #AAA;
+	text-align: center;
+	margin-top: 60px;
+	text-transform: capitalize;
+	font-size: 65px;
+	font-family: 'Londrina Outline', cursive;
+
+}
+h2{
+	color: #BBB;
+	font-size: 30px;
+	text-align: center;
+}
+p{
+	font-family: 'Pinyon Script', cursive;
+	margin:0;
+	padding: 10px;
+	line-height: 28px;
+	color:rgba(255, 255, 255, 0.9);
+	height:30px;
+	background: #111;
+	position: absolute;
+	bottom:0;
+	text-align: justify;
+	background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+	background: -ms-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+	background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+	background: -o-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+	background: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.4));
+	transition: -moz-all 0.9s;
+	transition: -ms-all 0.9s;
+	transition: -webkit-all 0.9s;
+	transition: -o-all 0.9s;
+	transition: all 0.9s;
+}
+img{
+	width:650px;
+	height:200px;
+	margin:auto;
+	padding: 30px;
+
+}
+span.price{
+	float:right;
+}
+small{
+	opacity: 0;
+	transition: -moz-all 0.9s;
+	transition: -ms-all 0.9s;
+	transition: -webkit-all 0.9s;
+	transition: -o-all 0.9s;
+	transition: all 0.9s;
+}
+.show-description p {
+	height: 100px;
+}
+.show-description small {
+	opacity: 1;
+}
+

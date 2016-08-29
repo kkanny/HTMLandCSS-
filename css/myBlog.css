@@ -1,0 +1,28 @@
+body{
+	background-size: cover;
+	background-image: url('../img/bridge-bg.png');
+	background-repeat: no-repeat;
+}
+div#mainContainer{
+	width:100%;
+	text-align: center;
+	color: pink;
+	font-family: 'Pinyon Script', cursive;
+}
+img{
+	width:200px;
+	height:200px;
+	margin-top:50px;
+	border-radius: 50%;
+
+}
+input{
+	padding: 5px;
+	font-size: 15px;
+}
+input[type ='submit']{
+	background-color: green;
+	color:white;
+	
+	
+}

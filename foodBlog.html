@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kanny's Kitchen</title>
+    <link rel="stylesheet" href="./css/foodBlog.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+</head>
+
+<body>
+   
+        <h1>Kanny's Kitchen (KK)</h1>
+        <h2>NYC Eatery Place</h2>
+        <article class="first">
+            <p>Sandwich <span class='price'>$14</span> <br/> <small>Strawberry Cheesecake Cupcake with cream cheese frosting. One dozen cupcake is $20. Red Velvet Cakepop with Cream Cheese filling. One dozen cakepop is $25 </small></p>
+        </article>
+        <article class="second">
+            <p>Sandwich <span class='price'>$14</span> <br/> <small>Strawberry Cheesecake Cupcake with cream cheese frosting. One dozen cupcake is $20. Red Velvet Cakepop with Cream Cheese filling. One dozen cakepop is $25 </small></p>
+        </article>
+        <article class="thrid">
+            <p>Sandwich <span class='price'>$14</span> <br/> <small>Strawberry Cheesecake Cupcake with cream cheese frosting. One dozen cupcake is $20. Red Velvet Cakepop with Cream Cheese filling. One dozen cakepop is $25 </small></p>
+        </article>
+
+       <script>
+       (function(){
+       	'use strict';
+       	$('article').on('click', function(){
+       		$(this).toggleClass('show-description');
+       	});
+       })();
+       </script>
+    
+</body>
+
+</html>

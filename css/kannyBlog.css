@@ -1,0 +1,33 @@
+header{
+	background-size: cover;
+	background-image: url('../img/IMG_0071.JPG');
+	background-repeat: no-repeat;
+	text-align: center;
+
+}
+img{
+	width:200px;
+	height:200px;
+	margin: 25px auto;
+	border: solid 5px black;
+}
+h1{
+	color: white;
+	font-family: 'Lily Script One', cursive;
+	font-size: 50px;
+	margin:0;
+}
+ul{
+	padding: 10px;
+}
+li{
+	display: inline;
+
+}
+a{
+	color:yellow;
+}
+article{
+	width: 700px;
+	margin:auto;
+}
